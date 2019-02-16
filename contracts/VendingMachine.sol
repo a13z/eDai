@@ -103,6 +103,8 @@ contract VendingMachine is Initializable, AdminRole, WhitelistedRole {
     using SafeMath for uint256;
 
     ERC20Edai public tokenContract;
+    string public daiContract;
+
     mapping (address => uint256) public allowance;
 
     event Deposit(address indexed depositor, uint amount);
@@ -110,6 +112,7 @@ contract VendingMachine is Initializable, AdminRole, WhitelistedRole {
 
     function initialize(address _tokenContract) initializer public {
         tokenContract = ERC20Edai(_tokenContract);
+        daiContract = "0xc4375b7de8af5a38a93548eb8453a498222c4ff2"; // Kovan DAI contract
     }
 
     //Fallback. Just send currency here to deposit
