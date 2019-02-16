@@ -1,8 +1,9 @@
-pragma solidity 0.5.0;
+pragma solidity ^0.5.0;
 
 import "zos-lib/contracts/Initializable.sol";
 import "openzeppelin-solidity/contracts/access/Roles.sol";
 import "contracts/ERC20Edai.sol";
+import "contracts/ERC20DaiTest.sol";
 
 contract AdminRole is Initializable {
     using Roles for Roles.Role;
@@ -103,21 +104,29 @@ contract VendingMachine is Initializable, AdminRole, WhitelistedRole {
     using SafeMath for uint256;
 
     ERC20Edai public tokenContract;
-    string public daiContract;
+    ERC20DaiTest public daiContract;
 
     mapping (address => uint256) public allowance;
 
     event Deposit(address indexed depositor, uint amount);
     event Withdraw(address indexed withdrawer, uint amount);
 
-    function initialize(address _tokenContract) initializer public {
+    function initialize(address _tokenContract, address _daiContract) initializer public {
         tokenContract = ERC20Edai(_tokenContract);
-        daiContract = "0xc4375b7de8af5a38a93548eb8453a498222c4ff2"; // Kovan DAI contract
+        daiContract = ERC20DaiTest(_daiContract);
     }
 
     //Fallback. Just send currency here to deposit
     function () external payable {
         deposit();
+    }
+
+
+    function buyedai(uint256 amount) public {
+        //require(daiContract.approve(address(this), amount), "Require daiContract.approve error");
+        daiContract.transfer(address(this), amount);
+        tokenContract.mint(msg.sender, amount);
+        emit Deposit(msg.sender, amount);
     }
 
     /**
@@ -129,6 +138,7 @@ contract VendingMachine is Initializable, AdminRole, WhitelistedRole {
 
         tokenContract.mint(msg.sender, msg.value);
         emit Deposit(msg.sender, msg.value);
+
     }
 
     /**
