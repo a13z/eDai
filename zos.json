@@ -1,0 +1,8 @@
+{
+  "zosversion": "2.2",
+  "name": "edai",
+  "version": "0.1.0",
+  "contracts": {
+    "ERC20Edai": "ERC20Edai"
+  }
+}
