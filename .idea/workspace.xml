@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc764dd7-9e50-4652-b7ba-ffe21eb8291f" name="Default Changelist" comment="" />
+    <list default="true" id="dc764dd7-9e50-4652-b7ba-ffe21eb8291f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/contracts/AdminRole.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/contracts/AdminRole.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/contracts/ERC20.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/contracts/ERC20.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/contracts/ERC20Edai.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/contracts/ERC20Edai.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/contracts/IERC20.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/contracts/IERC20.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/contracts/Initializable.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/contracts/Initializable.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/contracts/Ownable.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/contracts/Ownable.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/contracts/Roles.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/contracts/Roles.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/contracts/SafeMath.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/contracts/SafeMath.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/contracts/VendingMachine.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/contracts/VendingMachine.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/contracts/WhitelistedRole.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/contracts/WhitelistedRole.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/ERC20Edai.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/ERC20Edai.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/Exchange.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/truffle-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/truffle-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zos.json" beforeDir="false" afterPath="$PROJECT_DIR$/zos.json" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,16 +33,37 @@
         <entry file="file://$PROJECT_DIR$/contracts/ERC20Edai.sol">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="35" />
+              <caret line="6" column="42" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/contracts/Exchange.sol">
+        <entry file="file://$PROJECT_DIR$/truffle-config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="120" column="65" selection-start-line="120" selection-start-column="60" selection-end-line="120" selection-end-column="65" />
+            <state relative-caret-position="240">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contracts/VendingMachine.sol">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="123" column="20" selection-start-line="123" selection-start-column="13" selection-end-line="123" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="88" column="23" lean-forward="true" selection-start-line="88" selection-start-column="23" selection-end-line="88" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,13 +75,25 @@
       <find>cons</find>
       <find>changeVendingMachine</find>
       <find>ERC20</find>
+      <find>VendingMachine</find>
+      <find>Wallet</find>
+      <find>exch</find>
+      <find>Exchange</find>
     </findStrings>
+    <replaceStrings>
+      <replace>Exchange</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/contracts/ERC20Edai.sol" />
         <option value="$PROJECT_DIR$/contracts/Exchange.sol" />
+        <option value="$PROJECT_DIR$/contracts/ERC20Edai.sol" />
+        <option value="$PROJECT_DIR$/client/src/App.js" />
+        <option value="$PROJECT_DIR$/truffle-config.js" />
       </list>
     </option>
   </component>
@@ -53,6 +102,7 @@
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -64,6 +114,28 @@
             <path>
               <item name="edai" type="b2602c69:ProjectViewProjectNode" />
               <item name="edai" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edai" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edai" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="contracts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edai" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edai" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="edai" type="b2602c69:ProjectViewProjectNode" />
@@ -105,12 +177,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550279356458</updated>
-      <workItem from="1550279357866" duration="1276000" />
+      <workItem from="1550279357866" duration="3557000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1276000" />
+    <option name="totallyTimeSpent" value="3557000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -141,17 +213,41 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/contracts/ERC20Edai.sol">
+    <entry file="file://$PROJECT_DIR$/contracts/Exchange.sol">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="35" />
+        <state relative-caret-position="549">
+          <caret line="101" column="23" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contracts/Exchange.sol">
+    <entry file="file://$PROJECT_DIR$/client/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="120" column="65" selection-start-line="120" selection-start-column="60" selection-end-line="120" selection-end-column="65" />
+        <state relative-caret-position="460">
+          <caret line="88" column="23" lean-forward="true" selection-start-line="88" selection-start-column="23" selection-end-line="88" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts/VendingMachine.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="123" column="20" selection-start-line="123" selection-start-column="13" selection-end-line="123" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts/ERC20Edai.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truffle-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>

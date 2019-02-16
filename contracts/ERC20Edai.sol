@@ -8,11 +8,12 @@ contract ERC20Edai is Initializable, ERC20, Ownable {
     address public vendingMachine;
     string public name;
     string public symbol;
-    uint8 public decimals = 18;
+    uint8 public decimals;
 
-    function initialize(string memory _name, string memory _symbol) initializer public {
-        name = _name;
-        symbol = _symbol;
+    function initialize() initializer public {
+        name = "eDai";
+        symbol = "EDAI";
+        decimals = 18;
     }
 
     modifier onlyVendingMachine() {
