@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "contracts": {
     "ERC20Edai": "ERC20Edai",
-    "VendingMachine": "VendingMachine"
+    "VendingMachine": "VendingMachine",
+    "ERC20DaiTest": "ERC20DaiTest"
   }
 }
